@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Grid System</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, intial-scale=1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .column1 {
+            background-color: wheat;
+        }
+        .column2 {
+            background-color: greenyellow;
+        }
+        .column3 {
+            background-color: yellow;
+        }
+        .column4 {
+            background-color: peachpuff;
+        }
+    </style>
+</head>
+<body>
+<!--
+    Bootstrap's grid system allows up to 12 columns across the page.
+
+    If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:
+
+
+    xs (for phones)
+    sm (for tablets)
+    md (for desktops)
+    lg (for larger desktops)
+    -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3 column1">Column 1</div>
+        <div class="col-xs-12 col-md-6 col-lg-3 column2">Column 2</div>
+        <div class="col-xs-12 col-md-6 col-lg-3 column3">Column 3</div>
+        <div class="col-xs-12 col-md-6 col-lg-3 column4">Column 4</div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

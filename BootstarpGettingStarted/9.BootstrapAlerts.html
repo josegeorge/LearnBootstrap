@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,scale-initial=1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Alert</h3>
+            Alerts are created with the <mark>.alert</mark> class, followed by one of the four contextual classes <mark>.alert-success</mark>, <mark>.alert-info</mark>, <mark>.alert-warning</mark> or <mark>.alert-danger</mark>:
+        </div>
+        <div class="col-xs-12">
+            <div class="alert alert-success">
+                <strong>Success!</strong> Indicates a successful or positive action.
+            </div>
+
+            <div class="alert alert-info">
+                <strong>Info!</strong> Indicates a neutral informative change or action.
+            </div>
+
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> Indicates a warning that might need attention.
+            </div>
+
+            <div class="alert alert-danger">
+                <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Alert Links</h3>
+            Add the <mark>.alert-link</mark> class to any links inside the alert box to create "matching colored links":
+        </div>
+        <div class="col-xs-12">
+            <div class="alert alert-success">
+                <strong>Success!</strong> You should <a href="#" class="alert-link">read this message</a>.
+            </div>
+            <div class="alert alert-info">
+                <strong>Info!</strong> You should <a href="#" class="alert-link">read this message</a>.
+            </div>
+            <div class="alert alert-warning">
+                <strong>Warning!</strong> You should <a href="#" class="alert-link">read this message</a>.
+            </div>
+            <div class="alert alert-danger">
+                <strong>Danger!</strong> You should <a href="#" class="alert-link">read this message</a>.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Closing Alerts</h3>
+            <p class="bg-success">Click on the "x" symbol to the right to close me.</p>
+            <p>To close the alert message, add a <mark>.alert-dismissable</mark> class to the alert container. Then add <mark>class="close"</mark> and <mark>data-dismiss="alert"</mark> to a link or a button element (when you click on this the alert box will disappear).
+            </p>
+        </div>
+        <div class="col-xs-12">
+            <div class="alert alert-warning alert-dismissable">
+                This is an alert that can be closed....
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <p class="well">
+                The aria-* attribute and &times; explanation<br/>
+                To help improve accessibility for people using screen readers, you should include the aria-label="close" attribute, when creating a close button.<br/>
+                &times; (×) is an HTML entity that is the preferred icon for close buttons, rather than the letter "x".
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Animated Alerts</h3>
+            <div class="well">Click on the "x" symbol to the right to close me. I will "fade" out.</div>
+            <p>
+                The <mark>.fade</mark> and <mark>.in</mark> classes adds a fading effect when closing the alert message:
+            </p>
+        </div>
+        <div class="col-xs-12">
+            <div class="alert alert-info alert-dismissable fade in">
+                This is an alert that can be closed with animation effect
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <p class="well">
+                The aria-* attribute and &times; explanation<br />
+                To help improve accessibility for people using screen readers, you should include the aria-label="close" attribute, when creating a close button.<br />
+                &times; (×) is an HTML entity that is the preferred icon for close buttons, rather than the letter "x".
+            </p>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
