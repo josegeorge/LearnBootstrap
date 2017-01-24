@@ -31,3 +31,36 @@ K:\Study Videos\Bootstrap\Projects\LearnBootStrap\BootstarpGettingStarted\bin\Mi
 K:\Study Videos\Bootstrap\Projects\LearnBootStrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.csprojResolveAssemblyReference.cache
 K:\Study Videos\Bootstrap\Projects\LearnBootStrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.dll
 K:\Study Videos\Bootstrap\Projects\LearnBootStrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.pdb
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\ApplicationInsights.config
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\csc.exe
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\vbc.exe
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\BootstarpGettingStarted.dll.config
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\BootstarpGettingStarted.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\BootstarpGettingStarted.pdb
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.DependencyCollector.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.Web.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.WindowsServer.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.ApplicationInsights.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.DependencyCollector.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.Web.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.AI.WindowsServer.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.ApplicationInsights.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.csprojResolveAssemblyReference.cache
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.dll
+D:\GitHub\LearnBootstrap\BootstarpGettingStarted\obj\Debug\BootstarpGettingStarted.pdb

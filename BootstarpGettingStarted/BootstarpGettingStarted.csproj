@@ -98,6 +98,11 @@
     <Content Include="11.BootstrapButtonGroups.html" />
     <Content Include="10.BootstrapButtons.html" />
     <Content Include="12.Glyphicons.html" />
+    <Content Include="13.BootstrapBadgesandLabels.html" />
+    <Content Include="14.BootstrapProgressBars.html" />
+    <Content Include="15.BootstrapPagination.html" />
+    <Content Include="17.BootstrapListGroup.html" />
+    <Content Include="16.BootstrapPager.html" />
     <Content Include="4.Typography.html" />
     <Content Include="8.BootstrapWells.html" />
     <Content Include="7.Jumbotron.html" />

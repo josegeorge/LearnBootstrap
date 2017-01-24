@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,intial-scale=1" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Basic Pagination</h3>
+                <div>
+                    To create a basic pagination, add the <mark>.pagination</mark>class to an &lt;ul&gt; element:
+                </div>
+            </div>
+
+            <ul class="pagination">
+                <li> <a href="#">1</a></li>
+                <li> <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <a href="#">4</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--*******************************
+       Active State
+    **************************************-->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Active State</h3>
+                <div>
+                    Add class <mark>.active</mark> to let the user know which page he/she is on:
+                </div>
+            </div>
+
+            <ul class="pagination">
+                <li> <a href="#">1</a></li>
+                <li class ="active"> <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <a href="#">4</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--*******************************
+      Disabled State
+    **************************************-->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Disabled State</h3>
+                <div>
+                    Add class <mark>.disabled</mark> if a link for some reason is disabled: 
+                </div>
+            </div>
+
+            <ul class="pagination">
+                <li> <a href="#">1</a></li>
+                <li class="disabled"> <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <a href="#">4</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!--*******************************
+      Pagination Sizing
+    **************************************-->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Pagination Sizing</h3>
+                <div>
+                    Add class <mark>.pagination-lg</mark> for larger blocks or <mark>.pagination-sm</mark>for smaller blocks:
+                </div>
+            </div>
+
+            <ul class="pagination .pagination-lg">
+                <li> <a href="#">1</a></li>
+                <li > <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <a href="#">4</a></li>
+            </ul>
+            <br/><br/>
+            <ul class="pagination .pagination-sm">
+                <li> <a href="#">1</a></li>
+                <li> <a href="#">2</a></li>
+                <li> <a href="#">3</a></li>
+                <li> <a href="#">4</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--*******************************
+      Breadcrumbs
+    **************************************-->
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Breadcrumbs</h3>
+                <div>
+                    The <mark>.breadcrumb</mark> class indicates the current page's location within a navigational hierarchy:
+                </div>
+            </div>
+
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Private</a></li>
+                <li><a href="#">Pictures</a></li>
+                <li class="active">Vacation</li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

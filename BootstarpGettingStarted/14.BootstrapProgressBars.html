@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,intial-scale=1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--*******************************
+       Bootstrap Progress Bars
+    **************************************-->
+
+    <div class="well">
+        <h3>Bootstrap Progress Bars</h3>
+        <div>To create a default progress bar, add a <mark>.progress</mark> class to a &lt;div&gt; element:
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="0" style="width: 70%">
+            <span class ="sr-only">70% Complete</span>
+        </div>
+    </div>
+
+    <div class="well">
+        <div>
+            Note: Progress bars are not supported in Internet Explorer 9 and earlier (because they use CSS3 transitions and animations to achieve some of their effects).<br/><br/>
+            Note: To help improve accessibility for people using screen readers, you should include the aria-* attributes.
+        </div>
+    </div>
+    <div class="well">
+        <h3>Progress Bar With Label</h3>
+        <div>Remove the <mark>.sr-only</mark> class from the progress bar to show a visible percentage:
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+             aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+            70%
+        </div>
+    </div>
+    <!--*******************************
+       Colored Progress Bars
+    **************************************-->
+
+    <div class="well">
+        <h3>Colored Progress Bars</h3>
+        <div>
+            Contextual classes are used to provide "meaning through colors".<br/>
+            The contextual classes that can be used with progress bars are:<br />
+
+            <mark>.progress-bar-success</mark><br />
+            <mark>.progress-bar-info</mark><br />
+            <mark>.progress-bar-warning</mark><br />
+            <mark>.progress-bar-danger</mark><br /> 
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40% Complete (success)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+             aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            50% Complete (info)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+             aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            60% Complete (warning)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            70% Complete (danger)
+        </div>
+    </div>
+    <!--*******************************
+        Striped Progress Bars
+    **************************************-->
+    <div class="well">
+        <h3>Striped Progress Bars</h3>
+        <div>Add class <mark>.progress-bar-striped</mark>to add stripes to the progress bars:
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40% Complete (success)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            50% Complete (info)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+            60% Complete (warning)
+        </div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
+             aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+            70% Complete (danger)
+        </div>
+    </div>
+    <!--*******************************
+        Animated Progress Bar
+    **************************************-->
+
+    <div class="well">
+        <h3>Animated Progress Bar</h3>
+        <div>
+            Add class <mark>.active</mark> to animate the progress bar:
+        </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped active" role="progressbar"
+             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+            40%
+        </div>
+    </div>
+    <!--*******************************
+       Stacked Progress Bars
+    **************************************-->
+
+    <div class="well">
+        <h3>Stacked Progress Bars</h3>
+        <div>Create a stacked progress bar by placing multiple bars into the same &lt;div class="progress"&gt;:</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+            Free Space
+        </div>
+        <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+            Warning
+        </div>
+        <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+            Danger
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
