@@ -101,8 +101,14 @@
     <Content Include="13.BootstrapBadgesandLabels.html" />
     <Content Include="14.BootstrapProgressBars.html" />
     <Content Include="15.BootstrapPagination.html" />
+    <Content Include="19.BootstrapDropdows.html" />
+    <Content Include="18.BootstrapPanels.html" />
     <Content Include="17.BootstrapListGroup.html" />
     <Content Include="16.BootstrapPager.html" />
+    <Content Include="24.BootstrapFormInputs2.html" />
+    <Content Include="23.BootstrapFormInputs.html" />
+    <Content Include="22.BootstrapForms.html" />
+    <Content Include="21.BootstrapTabsandPills.html" />
     <Content Include="4.Typography.html" />
     <Content Include="8.BootstrapWells.html" />
     <Content Include="7.Jumbotron.html" />
@@ -119,6 +125,7 @@
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="5.BootstrapTables.html" />
     <Content Include="6.BootstrapImages.html" />
+    <Content Include="20.BootstrapCollapse.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

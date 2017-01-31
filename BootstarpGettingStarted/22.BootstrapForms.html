@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="well">
+                <h3>Bootstrap's Default Settings</h3>
+                <div>
+                    Form controls automatically receive some global styling with Bootstrap:<br/>
+                    All textual &lt;input&gt;, &lt;textarea&gt;, and &lt;select&gt;elements with class <code>.form-control</code> have a width of 100%.<br/>
+                </div>
+            </div>
+
+            <div class="well">
+                <h3>Bootstrap Form Layouts</h3>
+                <div>
+                    Bootstrap provides three types of form layouts:<br/>
+                    <ul>
+                        <li>Vertical form (this is default)</li>
+                        <li>Horizontal form</li>
+                        <li>Inline form</li>
+                    </ul>
+                    Standard rules for all three form layouts:<br/><br/>
+                    Wrap labels and form controls in &lt;div class="form-group"&gt; (needed for optimum spacing) <br/>
+                    Add class .form-control to all textual &lt;input&gt;, &lt;textarea&gt;, and &lt;select&gt; elements<br/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <h3>Bootstrap Vertical Form (default)</h3>
+            <form>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control"/>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <!--*******************************
+        Bootstrap Inline Form
+        **************************************-->
+        <div class="col-xs-12">
+            <h3>Bootstrap Inline Form</h3>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control"/>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <!--*******************************
+            Bootstrap Inline Form .sr-only
+            **************************************-->
+
+            <div class="well">
+                Tip: If you don't include a label for every input, screen readers will have trouble with your forms. You can hide the labels for all devices, except screen readers, by using the <code>.sr-only</code> class:
+            </div>
+            <h3>Bootstrap Inline Form (with .sr-only)</h3>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" class="form-control" placeholder="Email"/>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="sr-only">Password</label>
+                    <input type="password" class="form-control" placeholder="Password"/>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+        </div>
+
+
+        <!--*******************************
+        Bootstrap Horizontal Form
+        **************************************-->
+        <div class="col-xs-12">
+            <h3>Bootstrap Inline Form</h3>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-xs-2" for="email">Email</label>
+                    <div class="col-xs-10">
+                        <input type="email" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-xs-2" for="password">Password</label>
+                    <div class="col-xs-10">
+
+                        <input type="password" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+
+
+    <br/><br/><br/><br/>
+</div>
+
+
+</body>
+</html>
